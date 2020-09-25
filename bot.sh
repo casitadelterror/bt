@@ -3,7 +3,7 @@
 # verificacion primarias
 [[ -e /etc/newadm-instalacao ]] && BASICINST="$(cat /etc/newadm-instalacao)" || BASICINST="menu hora.sh sshdrop.sh proxy.sh rootpass.sh dados.sh sslh.sh message.txt ports.sh ADMbot.sh PGet.py usercodes sockspy.sh POpen.py PPriv.py PPub.py PDirect.py speedtest.py speed.sh utils.sh dropbear.sh apacheon.sh openvpn.sh ssl.sh squid.sh fai2ban.sh gestor.sh paysnd.sh ultrahost v2ray.sh Unlock-Pass-VULTR.sh tcp.sh blockBT.sh squidpass.sh Crear-Demo.sh C-SSR.sh Shadowsocks-libev.sh panelweb.sh squidmx"
 gt="/etc/gbt" && [[ ! -d ${gt} ]] && mkdir ${gt}
-SCPT_DIR="${gbt}/gh"
+SCPT_DIR="${gt}/gh"
 [[ ! -e ${SCPT_DIR} ]] && mkdir ${SCPT_DIR}
 INSTA_ARQUIVOS="ADMVPS.zip"
 DIR="/etc/http-shell"
